@@ -312,7 +312,7 @@ textarea:focus {
    ========================= */
 
 div.stButton > button {
-    background: hsl(258, 15%, 83%) !important;
+    background: hsl(343, 33%, 33%) !important;
     color: #FFFFFF !important;
     border: none !important;
     border-radius: 10px !important;
