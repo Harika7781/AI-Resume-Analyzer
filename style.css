@@ -307,60 +307,48 @@ textarea:focus {
 }
 
 
-/* =========================
-   ANALYZE BUTTON
-   ========================= */
+/* =========================================================
+   ANALYZE RESUME BUTTON
+   ========================================================= */
 
-div.stButton > button {
-    background: hsl(343, 33%, 33%) !important;
-    color: #FFFFFF !important;
-    border: none !important;
-    border-radius: 10px !important;
-    min-height: 48px !important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.2px !important;
-    box-shadow: 0 4px 12px rgba(91, 75, 138, 0.18) !important;
-    transition: all 0.2s ease !important;
-}
-
-div.stButton > button p {
-    color: #FFFFFF !important;
-    font-weight: 700 !important;
-}
-
-div.stButton > button:hover {
-    background: #493A75 !important;
-    color: #FFFFFF !important;
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(91, 75, 138, 0.25) !important;
-}
-
-div.stButton > button:active {
-    transform: translateY(0);
-}
-
-div.stButton > button:focus {
-    color: #FFFFFF !important;
-    border: none !important;
-    outline: none !important;
-}
-
-div.stButton > button:disabled {
-    background: #B8B1C9 !important;
-    color: #FFFFFF !important;
-    opacity: 1 !important;
-}
-/* Analyze Resume button only */
 .stButton > button {
+    width: 100% !important;
+    min-height: 52px !important;
+
+    background: #51467A !important;
     background-color: #51467A !important;
-    color: white !important;
-    border: none !important;
+    background-image: none !important;
+
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+
+    border: 1px solid #51467A !important;
+    border-radius: 10px !important;
+
+    font-size: 15px !important;
+    font-weight: 700 !important;
+
+    opacity: 1 !important;
+
+    box-shadow: 0 4px 12px rgba(81, 70, 122, 0.20) !important;
 }
 
 .stButton > button:hover {
+    background: #433866 !important;
     background-color: #433866 !important;
-    color: white !important;
+    background-image: none !important;
+
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+
+    border-color: #433866 !important;
+}
+
+.stButton > button p,
+.stButton > button span {
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+    font-weight: 700 !important;
 }
 
 /* =========================================================
