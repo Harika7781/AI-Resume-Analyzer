@@ -394,6 +394,7 @@ analyze = st.button(
     type="primary",
     key="analyze_button",
     use_container_width=True,
+    disabled=not can_analyze
 )
 
 
