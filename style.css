@@ -310,6 +310,12 @@ textarea:focus {
 /* =========================================================
    ANALYZE RESUME BUTTON
    ========================================================= */
+.stButton > button {
+    background: red !important;
+    background-color: red !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
 
 .stButton > button {
     width: 100% !important;
