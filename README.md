@@ -1,18 +1,18 @@
-# 📄 ResumeIQ — AI Resume & Job Description Analyzer
+ResumeIQ — AI Resume & Job Description Analyzer
 
 > An AI-powered web application that analyzes a resume against a target job description, identifies skill gaps, provides actionable improvement suggestions, and generates role-specific interview questions.
 
-## 🚀 Live Demo
+Live Demo
 
-🔗 **Live Application:**  
-https://YOUR-STREAMLIT-APP-URL.streamlit.app/
+Live Application:
+https://resume-analyzer-jobdescription.streamlit.app/
 
-🔗 **GitHub Repository:**  
+GitHub Repository:
 https://github.com/Harika7781/AI-Resume-Analyzer
 
 ---
 
-## 📌 Overview
+Overview
 
 ResumeIQ is a Generative AI-powered resume analysis application designed to help candidates understand how well their resume aligns with a specific job description.
 
@@ -31,38 +31,38 @@ The match percentage is an **AI-generated estimate and is not an official ATS sc
 
 ---
 
-## ✨ Features
+Features
 
-### 📄 Resume Upload
+Resume Upload
 
 - Upload a resume in PDF format
 - Extract text automatically using PyPDF2
 - Validate the uploaded PDF
 - Preview extracted resume content
 
-### 🎯 Job Match Analysis
+Job Match Analysis
 
 Generative AI compares the resume with the target job description and generates an estimated match percentage.
 
-### 🧠 Skill Gap Detection
+Skill Gap Detection
 
 Identifies:
 
 - Skills demonstrated in the resume
 - Important skills mentioned in the JD but missing or weakly demonstrated in the resume
 
-### ✨ Resume Improvement
+Resume Improvement
 
 Provides practical suggestions to improve the resume based on the target role.
 
-### 💬 Interview Preparation
+Interview Preparation
 
 Generates:
 
 - Relevant interview topics
 - Five role-specific interview questions
 
-### ⚙️ Custom Analysis Settings
+Custom Analysis Settings
 
 Users can select:
 
@@ -70,7 +70,7 @@ Users can select:
 - Experience Level
 - Primary Target
 
-### 🔐 Secure API Key Handling
+ Secure API Key Handling
 
 The Gemini API key is not stored in the source code.
 
