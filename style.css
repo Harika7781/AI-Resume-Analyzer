@@ -351,6 +351,17 @@ div.stButton > button:disabled {
     color: #FFFFFF !important;
     opacity: 1 !important;
 }
+/* Analyze Resume button only */
+.stButton > button {
+    background-color: #51467A !important;
+    color: white !important;
+    border: none !important;
+}
+
+.stButton > button:hover {
+    background-color: #433866 !important;
+    color: white !important;
+}
 
 /* =========================================================
    Metrics
