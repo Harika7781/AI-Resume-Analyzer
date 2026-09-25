@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+resume_ai/
+venv/
+.venv/
+.streamlit/secrets.toml
+.vscode/
